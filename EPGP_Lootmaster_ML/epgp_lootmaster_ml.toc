@@ -2,7 +2,7 @@
 ## Title: EPGP LootMaster - |cFFFF8080ML|r
 ## Author: Bushmaster-Twisting Nether-EU, for tralala fxpw and fallafell
 ## Version: 0.4.8
-## Notes: Распределение лута для EPGP - Инструменты МастерЛутера - Игрокам можно спокойно выключать
+## Notes: |@Version: 1@|Распределение лута для EPGP - Инструменты МастерЛутера - Игрокам можно спокойно выключать
 ## RequiredDeps: epgp_lootmaster
 ## OptionalDeps: EPGP
 

@@ -1,0 +1,5 @@
+name: EPGP
+description: README.md
+version: 1
+category: 14
+directories: ["EPGP", "EPGP_Lootmaster", "EPGP_Lootmaster_ML"]
