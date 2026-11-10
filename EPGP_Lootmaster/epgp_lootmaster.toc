@@ -1,0 +1,24 @@
+﻿## Interface: 30300
+## Title: EPGP LootMaster - |cFFFF8080Core|r
+## Author: Bushmaster-Twisting Nether-EU, for tralala fxpw and fallafell
+## Version: 0.4.8
+## Notes: |@Version: 1@|Распределение лута для EPGP
+## OptionalDeps: EPGP
+## SavedVariables: EPGPLootMaster
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceComm-3.0\AceComm-3.0.xml
+
+embeds.xml
+
+lootmaster_core.lua
+lootmaster_player.lua
+lootmaster_player_ui.lua
