@@ -270,7 +270,7 @@ function mod:RedoLastUndo()
 end
 
 -- This is kept for historical reasons: see
--- http://code.google.com/p/epgp/issues/detail?id=350.
+-- https://github.com/sirus-addons/EPGP.
 function mod:Snapshot()
     local t = self.db.profile.snapshot
     if not t then
@@ -654,6 +654,6 @@ function mod:OnEnable()
     end
 
     -- This is kept for historical reasons. See:
-    -- http://code.google.com/p/epgp/issues/detail?id=350.
+    -- https://github.com/sirus-addons/EPGP.
     EPGP.db.RegisterCallback(self, "OnDatabaseShutdown", "Snapshot")
 end

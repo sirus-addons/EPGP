@@ -1,5 +1,5 @@
 -- A library to compute Gear Points for items as described in
--- http://code.google.com/p/epgp/wiki/GearPoints
+-- https://github.com/sirus-addons/EPGP
 
 local MAJOR_VERSION = "LibGearPoints-1.0"
 local MINOR_VERSION = tonumber(("$Revision: 1023 $"):match("%d+")) or 0

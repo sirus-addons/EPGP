@@ -94,7 +94,7 @@ function lib:SetNote(name, note)
                       "note for %s! "..
                       "current=[%s] pending=[%s] new[%s]. "..
                       "Please report this bug along with the actions that "..
-                      "lead to this on http://epgp.googlecode.com",
+                      "lead to this on https://github.com/sirus-addons/EPGP",
                     tostring(name),
                     tostring(e.note),
                     tostring(pending_note[name]),
@@ -126,7 +126,7 @@ function lib:IsCurrentState()
 end
 
 -- This is kept for historical reasons. See:
--- http://code.google.com/p/epgp/issues/detail?id=350.
+-- https://github.com/sirus-addons/EPGP.
 function lib:Snapshot(t)
   assert(type(t) == "table")
   t.guild_info = guild_info:match("%-EPGP%-\n(.*)\n\%-EPGP%-")
